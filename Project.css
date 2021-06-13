@@ -520,7 +520,7 @@ body.p5{
     
     .nav{
        position: relative;
-        width: 95%;
+        width: 100%;
         font-size: 7px;
         
     }
@@ -534,9 +534,7 @@ body.p5{
         font-size: 7px;
         display: inline;
         padding-right: 1%;
-        padding-top: 6px;
-        text-shadow: -2.5px -2.5px rgb(0, 0, 0);
-        color:rgb(255, 255, 255);
+       
     }
     .h11 img{
         padding-top: 1.5%;
