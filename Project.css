@@ -58,28 +58,7 @@ body.index{
   
   /*------------------------------------------------------------------------------------------------------------------------------------*/
   
-  .h11{
-     
-      margin-left: 1.5%;
-      font-size: 35px;
-      display: inline;
-      padding-right: 5%;
-      padding-top: 12px;
-      
-      color:rgb(255, 255, 255);
-      
-    
-  }
-  .f{
-      
-      color: rgb(255, 155, 155);
-      
-  }
-  .h11 img{
-      padding-top: 1.5%;
-      width: 30px;
-      height: 30px;
-  }
+  
 
   .hh{
     text-shadow: -5px -5px crimson;
