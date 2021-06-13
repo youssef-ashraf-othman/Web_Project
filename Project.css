@@ -95,7 +95,7 @@ body.index{
   
   .h{
     display: inline-block;
-    margin-top: 25%;
+    margin-top: 15%;
     width: 100%;
     opacity: 0;
     animation: animation 4s forwards;
@@ -106,17 +106,7 @@ body.index{
   
   /*------------------------------------------------------------------------------------------------------------------------------------*/
   
-  @keyframes animation {
-    from{
-        
-        opacity: 0;
-    }
-    to{
-    
-        opacity: 1;
-    }
-  }
-  
+
   
    .s{
     padding-top: 0px;
