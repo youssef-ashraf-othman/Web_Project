@@ -141,13 +141,13 @@ body.index{
     margin-left: 1%;
     margin-right: 0;
     font-size: 25px;
-    color: rgb(200, 255, 0);
+        color: rgb(186, 218, 182);
   }
 
   /*------------------------------------------------------------------------------------------------------------------------------------*/
   
   .gallery {
-   
+    margin-top:7%;
     position: relative;
     margin: 5px;
     border: 1px solid #ccc;
@@ -628,6 +628,19 @@ body.p4{
             text-decoration: none;
             border-radius: 50%;
           }
+    
+    
+    
+    
+    
+    .contain-form{
+    
+  
+    margin-top: 14%;
+    margin-left: 9.5% ;
+    width: 100%;
+    
+ }
 
 
         }
