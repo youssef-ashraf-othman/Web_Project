@@ -545,6 +545,7 @@ body.p3{
 
     .pp{
         font-size: 10px;
+        padding-bottom:10%;
 
       }
       .pp img{
@@ -641,6 +642,9 @@ body.p4{
     width: 100%;
     
  }
+    input {
+        width:200%
+    }
 
 
         }
