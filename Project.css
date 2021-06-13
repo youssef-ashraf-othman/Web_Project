@@ -85,7 +85,8 @@ body.index{
   
   /*------------------------------------------------------------------------------------------------------------------------------------*/
   
-
+ 
+  
   
    .s{
     padding-top: 0px;
@@ -99,7 +100,6 @@ body.index{
     border-style:solid ;
     background-color:crimson;  
   }
-  
   
   a:hover{
     background-color: rgb(169, 169, 169);
