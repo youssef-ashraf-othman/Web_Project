@@ -1,0 +1,674 @@
+/*index*/
+
+body.index{
+    background-image:url("ssss.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+   
+   
+}
+*{
+    margin: 0;
+    
+  }
+  
+  
+  .nav {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+     border-top:20px ;
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0); 
+  }
+  
+  
+  
+  
+  
+  .nav a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:12px ;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  
+  .nav a:hover {
+    color: rgba(255, 250, 250, 0.466);
+    background-color: rgba(85, 88, 86, 0.863);
+    
+  }   
+  .active{
+    text-decoration: underline;
+    background-color: rgba(218, 102, 102, 0.199);
+  
+  }
+  
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  .h11{
+     
+      margin-left: 1.5%;
+      font-size: 35px;
+      display: inline;
+      padding-right: 5%;
+      padding-top: 12px;
+      
+      color:rgb(255, 255, 255);
+      
+    
+  }
+  .f{
+      
+      color: rgb(255, 155, 155);
+      
+  }
+  .h11 img{
+      padding-top: 1.5%;
+      width: 30px;
+      height: 30px;
+  }
+
+  .hh{
+    text-shadow: -5px -5px crimson;
+    text-decoration: double;
+   display: inline;
+    font-family: Snell Roundhand, cursive;
+    font-style: italic;
+    color:darkgray;
+    padding-bottom:0px ;
+    margin-left:12%;
+    font-size: 100px;
+  }
+  
+  .h{
+    display: inline-block;
+    margin-top: 25%;
+    width: 100%;
+    opacity: 0;
+    animation: animation 4s forwards;
+    animation-delay: 0.5s;
+  
+  }
+  
+  
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  @keyframes animation {
+    from{
+        
+        opacity: 0;
+    }
+    to{
+    
+        opacity: 1;
+    }
+  }
+  
+  
+   .s{
+    padding-top: 0px;
+    padding-left: 141px;
+    padding-right: 141px;
+    margin-left:12%;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 35px;
+    border-style:solid ;
+    background-color:crimson;  
+  }
+  
+  
+  a:hover{
+    background-color: rgb(169, 169, 169);
+    
+  }
+  
+  
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*p2*/
+  body.p2{
+      background-image:url("ss.jpg")  ;
+    
+      background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+
+  }
+  .hhh{
+    text-shadow: 1.5px 1.5px rgb(255, 0, 0);
+   
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin-left:2% ;
+    color: rgb(255, 255, 255);
+    font-weight:bolder ;
+  }
+  .pp{ 
+  
+    padding-bottom:4%;
+    display:block;
+    font-weight: bolder;
+    margin-left: 1%;
+    margin-right: 0;
+    font-size: 25px;
+    color: rgb(200, 255, 0);
+  }
+
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  .gallery {
+   
+    position: relative;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width:calc((100% - 50px) / 4);
+    
+  }
+  
+  
+  
+  div.gallery img {
+   
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    background-color: black;
+    font-size: 20px;
+    color : white;
+    padding: 40px;
+    text-align: center;
+  }
+  strong{
+    color: rgb(200, 255, 0);
+  }
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*p3*/
+body.p3{
+    background-image:url("123.jpg")  ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+
+}
+.hhhh{
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    margin-top:8% ;
+    margin-left:43% ;
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+table{
+  margin-top: 120px;
+  background: rgba(39, 55, 126, 0.432);
+  margin-left: 2.3%;
+  justify-content: center;
+  width: 95%;
+  
+  
+}
+
+
+
+th{
+  border-style:solid;
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(4, 248, 248);
+ 
+}
+
+
+td{
+  color: white ;
+  text-align: center;
+ 
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgba(40, 51, 80, 0.274);
+}
+td .divvv{
+  display: inline-block;
+  padding-left: 5%;
+}
+td .divv{
+  display: inline-block;
+  padding-right: 5%;
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*p4*/
+body.p4{
+    
+    background-image: url("Deep Space.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.h1{
+    padding-bottom: 15%;
+    margin-left: 24%;
+    width: 50%;
+    text-decoration:underline;
+    text-align: center;
+    font-size: 30px;
+    height: 80px;
+    background-image:url("football.jpeg");
+    color: rgb(223, 208, 208);
+  }
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+
+.div1{
+    padding-top:7% ;
+    padding-bottom: 25%;
+    
+    display: block;
+    width: 100%;
+   }
+  .div2{
+    padding-right: 4%;
+    padding-bottom: 10%;
+        float: right;
+  }
+  .div3{
+  
+    display:inline;
+      color: rgb(228, 167, 111);
+      font-size: 35px;
+      font-weight:bold;
+      font-style: italic;
+    float: left;
+    object-fit: contain;
+   opacity: 0;
+    animation: animation 4s forwards;
+   animation-delay: 0.5s;
+  }
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  .div4{
+  
+    padding-top:7% ;
+    display: block;
+    width: 100%;
+   }
+  .div5{
+    padding-left: 3%;
+        float: left;
+        
+  }
+  .div6{
+    
+    padding-right: 7%;
+    display:inline;
+      color: rgb(228, 167, 111);
+      font-size: 35px;
+      font-weight:bold;
+      font-style: italic;
+    float: right;
+    object-fit: contain;
+   opacity: 0;
+    animation: animation 4s forwards;
+   animation-delay: 2s;
+  }
+  /*------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  h3{
+    display: inline-block;
+    font-size: 30px;
+    color: aliceblue;
+   
+  
+  }
+    h2{
+      font-size: 40px;
+      color: rgb(182, 255, 225);
+    }
+  
+    
+    /*------------------------------------------------------------------------------------------------------------------------------------*/
+    .contact
+  {
+      display: block;
+      height: 100px;
+      width: 100%;
+      background-color: rgba(75, 23, 23, 0);
+      display: flex;
+      justify-content: center;
+      margin-top: 5%;
+      
+  }
+ 
+  .fa {
+      
+      padding-top: 2%;
+      padding-right: 3.5%;
+      padding-left: 3%;
+      margin-left:1.5% ;
+      font-size: 30px;
+      width: 35px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    
+    .fa-youtube {
+      background: #ff0000;
+      color: white;
+    }
+    .fa-instagram {
+      background: #131daf;
+      color: white;
+    }
+  
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*p5*/
+
+body.p5{
+    
+    background-image: url("12.jpg") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+   
+}
+
+
+.Register .hf{
+    /* Reserve */
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+ }
+ .contain-form h1{
+    /* book table  */
+    margin-top: 20px;
+    font-size: 30px;
+    color: #ac4b4b;
+ 
+ }
+ .contain-form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 19% ;
+    width: 50%;
+    
+   
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+ }
+ input{
+    width: 120%;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 180, 180);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+ }
+ #submit{
+    margin-top: 30px;
+    background-color:#ac4b4b ;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+ }
+ #submit:hover{
+    cursor: pointer;
+ }
+ 
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+@keyframes animation{
+    from{
+        opacity: 0;
+    }
+    to 
+    {
+        opacity: 1;
+    }
+}
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+@media   (max-width:767px) 
+{
+  
+    body.index{
+      background-attachment: fixed;
+         width: 100%;
+    }
+    .nav{
+       position: relative;
+        width: 100%;
+        font-size: 10px;
+        
+    }
+    .nav a{
+      
+      font-size: 10px;
+      padding-top: 15px;
+    }
+    .h11{
+        font-size: 10px;
+        display: inline;
+        padding-right: 2%;
+        padding-top: 6px;
+        text-shadow: -2.5px -2.5px rgb(0, 0, 0);
+        color:rgb(255, 255, 255);
+    }
+    .h11 img{
+        padding-top: 1.5%;
+        width: 10px;
+        height: 10px;
+    }
+
+    /*------------------------------------------------------------------------------------------------------------------------------------*/
+    body.p2{
+        background-attachment: fixed;
+           width: 100%;
+      }
+
+    .h{
+        padding-top: 30%;
+        
+        width: 100%;
+      }
+      .h h1{
+      text-shadow: -1.75px 1.75px crimson;
+      display: block;
+      padding-bottom:0px ;
+      margin-left:28%;
+      font-size: 35px;
+      
+      }
+  
+      .s{
+        padding-top: 0px;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-left:25%;
+      font-size: 20px;
+       
+      }
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+body.p3{
+    background-attachment: fixed;
+       width: 100%;
+  }
+
+    .pp{
+        font-size: 10px;
+
+      }
+      .pp img{
+        width: 30px;
+        height:15px;
+      }
+      
+      .gallery {
+      
+        width: 100%;
+      }
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+body.p4{
+    background-attachment: fixed;
+       width: 100%;
+  }
+
+
+      th{
+        border-style:solid;
+        padding: 3px;
+        
+        font-size: 20px;
+        font-weight: bolder;
+        color: rgb(4, 248, 248);
+       
+      }
+      
+      
+      td{
+        color: white ;
+        text-align: center;
+        
+        font-size: 15px;
+        font-weight: bold;
+        background-color: rgba(40, 51, 80, 0.274);
+      }  
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+  body.p5{
+    background-attachment: fixed;
+       width: 100%;
+  }
+
+      .div1{
+        padding-top:7% ;
+        width: 100%;
+       }
+      
+      .div3{
+        padding-bottom: 10%;
+          font-size: 20px;
+       
+    
+      }
+  
+      .div4{
+        padding-top:7% ;
+        width: 100%;
+  
+      }
+  
+      .div6{
+  
+     
+  
+      padding-bottom: 10%;
+          font-size: 20px;
+          }
+  
+          .fa {
+            padding-top: 8%;
+            margin-left:3% ;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+          }
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+     
+   
+    }
