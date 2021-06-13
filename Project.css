@@ -140,7 +140,7 @@ body.index{
     font-weight: bolder;
     margin-left: 1%;
     margin-right: 0;
-    font-size: 15px;
+    font-size: 25px;
     color: rgb(200, 255, 0);
   }
 
@@ -410,15 +410,11 @@ body.p5{
 }
 
 
-.Register .hf{
-    /* Reserve */
-    margin-top: 30px;
-    text-align: center;
-    color: white;
-    font-size: 60px;
- }
+
+ 
  .contain-form h1{
     /* book table  */
+     margin-left:7%;
     margin-top: 20px;
     font-size: 30px;
     color: #ac4b4b;
@@ -548,7 +544,7 @@ body.p3{
   }
 
     .pp{
-        font-size: 5px;
+        font-size: 10px;
 
       }
       .pp img{
