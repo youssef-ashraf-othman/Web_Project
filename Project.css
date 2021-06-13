@@ -3,7 +3,9 @@
 body.index{
     background-image:url("ssss.jpg");
     background-attachment: fixed;
-    background-repeat: no-repeat;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
     
    
    
@@ -144,10 +146,10 @@ body.index{
 /*p2*/
   body.p2{
       background-image:url("ss.jpg")  ;
-    
       background-attachment: fixed;
-    background-repeat: no-repeat;
-    
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
 
   }
   .hhh{
@@ -210,9 +212,11 @@ body.index{
 
 /*p3*/
 body.p3{
-    background-image:url("123.jpg")  ;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+      background-image:url("123.jpg")  ;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
     
 
 }
@@ -274,9 +278,11 @@ td .divv{
 /*p4*/
 body.p4{
     
-    background-image: url("Deep Space.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+     background-image: url("Deep Space.jpg");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
     
 }
 
@@ -418,9 +424,11 @@ body.p4{
 
 body.p5{
     
-    background-image: url("12.jpg") ;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+      background-image: url("12.jpg") ;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
     
    
 }
@@ -509,10 +517,7 @@ body.p5{
 @media   (max-width:767px) 
 {
   
-    body.index{
-      background-attachment: fixed;
-         width: 100%;
-    }
+    
     .nav{
        position: relative;
         width: 100%;
@@ -539,10 +544,7 @@ body.p5{
     }
 
     /*------------------------------------------------------------------------------------------------------------------------------------*/
-    body.p2{
-        background-attachment: fixed;
-           width: 100%;
-      }
+   
 
     .h{
         padding-top: 30%;
@@ -571,10 +573,7 @@ body.p5{
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 
-body.p3{
-    background-attachment: fixed;
-       width: 100%;
-  }
+
 
     .pp{
         font-size: 10px;
@@ -593,10 +592,7 @@ body.p3{
 
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
-body.p4{
-    background-attachment: fixed;
-       width: 100%;
-  }
+
 
 
       th{
@@ -622,10 +618,7 @@ body.p4{
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 
-  body.p5{
-    background-attachment: fixed;
-       width: 100%;
-  }
+  
 
       .div1{
         padding-top:7% ;
