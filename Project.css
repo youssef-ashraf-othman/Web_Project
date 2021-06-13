@@ -544,16 +544,16 @@ body.p5{
 
 
     .pp{
-        font-size: 5px;
+        font-size: 15px;
 
       }
       .pp img{
-        width: 30px;
+        width: 15px;
         height:15px;
       }
       
       .gallery {
-      
+        display:block;
         width: 100%;
       }
 
@@ -622,9 +622,7 @@ body.p5{
             text-decoration: none;
             border-radius: 50%;
           }
-    .container{
-        p
-
+    
 
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
