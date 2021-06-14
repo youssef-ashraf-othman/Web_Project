@@ -412,57 +412,61 @@ body.p5{
 
 
  
- .contain-form h1{
-    /* book table  */
-     margin-left:7%;
-    margin-top: 20px;
-    font-size: 30px;
-    color: #ac4b4b;
- 
- }
- .contain-form{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0);
-    margin-top: 7%;
-    margin-left: 19% ;
-    width: 50%;
-    
+ .container1 {
+    position: relative;
+    margin-top: 1.5%;
    
-    border-radius:10px ;
-    -webkit-border-radius:10px ;
-    -moz-border-radius:10px ;
-    -ms-border-radius:10px ;
-    -o-border-radius:10px ;
- }
- input{
-    width: 120%;
-    margin: 15px auto;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid rgb(180, 180, 180);
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
- }
- #submit{
-    margin-top: 30px;
-    background-color:#ac4b4b ;
-    color: white;
-    border: 1px solid white;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    
- }
- #submit:hover{
+   
+}
+
+input[type=submit] {
+    position: absolute;
+    left:30%;
+    width: 20%;
+    padding: 12px 10px;
     cursor: pointer;
- }
+    border-style: solid;
+    border-radius: 50px;
+    background-color: #ff002b;
+    font-size: 15px;
+}
+
+.container1 div {
+    margin: 15px 0;
+}
+
+
+
+.container1 div .label {
+   
+    width: 25%;
+    font-size: 20px;
+    color: #ff002b;
+    margin-left: 20%;
+    
+}
+
+.container1 div.in {
+    
+    width: 50%;
+    margin-left: 20%;
+  
+}
+
+.text10,#telephone,input[type=email],input[type=password],input[type=number] {
+    width: 75%;
+    padding: 12px;
+    font-size: 15px;       
+}
+
+.radio1,.radio2 {
+    display: inline-block;
+}
+
+.radio2 {
+    padding-left: 20px;
+}
+
  
 
 
