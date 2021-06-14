@@ -63,7 +63,7 @@ function validate() {
         check = false;
     }
 
-    if (!phone.match(/[0-9]{10})) {
+    if (!phone.match(/[0-9]{10}/)) {
         alert("Phone is not valid");
         check = false;
     }
