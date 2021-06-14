@@ -58,18 +58,15 @@ function validate() {
         check = false;
     }
 
-  if (!password.match(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/)){
-		alert("Password is Not Valid, It must contain 8 characters: 1 uppercase, one lowercase, one number and one special character at least");
-		check=false;
-	}
-	
-	if (!phone.match(/[0-9]{3}-[0-9]{3}-[0-9]{4}/)){
-		//if (!phone.match(/^[0-9]{11}$/)){
+    if (!password.match(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^A-Z])(?!.*\s).{8}$/)) {
+        alert("Password is Not Valid, It must contain only 8 characters: starts with uppercase character, one special character, one digit at least and lowercase characters");
+        check = false;
+    }
 
-		alert("Phone is not valid");
-		check=false;
-	}
-
+    if (!phone.match(/[0-9]{3}-[0-9]{3}-[0-9]{4}/)) {
+        alert("Phone is not valid");
+        check = false;
+    }
     return check;
 }
 
