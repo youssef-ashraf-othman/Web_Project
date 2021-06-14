@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <title>Register</title>
     <link rel="stylesheet" href="Project.css">
+    <script type="text/javascript" src="form.js"></script>
 
 </head>
 <body class="p5">
     
   <div class="nav">
-   
+  
     <a  href="index.html">Home</a>
 
     <a href="p2.html">News</a>
@@ -26,28 +27,85 @@
 
 
 
-<div class="Register">
-  
-</div>
-<div class="contain-form">
-  <h1 >Register Now</h1>
-  <form action="index.html" method="post" onsubmit="return validation()" autocomplete="on" id="myform">
-      <input name="name" type="text" placeholder="user name" id="user" class="control"><br><span
-          id="userr"></span>
-      <input name="passward" type="password" placeholder="passward" id="pass" class="control"><br><span
-          id="passs"></span>
-      <input name="passward" type="password" placeholder="confirm passward" id="conpass" class="control"><br><span
-          id="conpasss"></span>
-      <input name="email" type="email" placeholder="email" id="email" class="control"><br><span
-          id="emaill"></span>
-      <input name="phone" type="tel" placeholder="phone number" id="mobile" class="control"><br><span
-          id="mobill"></span>
-      <input name="btn" type="submit" value="Sign up" class="control" id="submit"><br>
+<section>
+  <div class="container1" style="width: 100%; min-height: 500px;">
+      <form action="index.html" method="GET" id="contactForm">
+          <div>
+              <div class="label">
+                  <label>First Name</label>
+              </div>
+              <div class="in">
+                  <input autofocus class="text10" type="text" name="first_name" id="FN" placeholder="Enter Your Frist Name" >
+              </div>
+          </div>
+          
+          <div>
+              <div class="label">
+                  <label>Last Name</label>
+              </div>
+              <div class="in">
+                  <input  class="text10" type="text" name="last_name" id="LN" placeholder="Enter Your Last Name">
+              </div>
+          </div>
+          
+          <div>
+              <div class="label">
+                  <label>E-Mail</label>
+              </div>
+              <div class="in">
+                  <input id="email" type="email" name="Email" placeholder="Enter Your E-mail">
+              </div>
+          </div>
 
-  </form>
+          <div class="pass_in">
+              <div class="label">
+                  <label>Password</label>
+              </div>
+              <div class="in">
+                  <input id="password" type="password" name="password" placeholder="Enter Your Password">
+              </div>
+          </div>
 
-</div>
-<script type="text/javascript" src="p5.js"></script>
+          <div>
+              <div class="label">
+                  <label>Phone Number</label>
+              </div>
+              <div class="in">
+                  <input id="telephone" type="text" name="telephone" placeholder="Enter Your phone Number ">
+              </div>
+          </div>
+      
+          <div>
+              <div class="label">
+                  <label>Address</label>
+              </div>
+              <div class="in">
+                  <input  id="address" class="text10" type="text" name="Address" placeholder="Enter Your Adress">
+              </div>
+          </div>
+         <div>
+              <div class="label">
+                  <label>Gender</label>
+              </div>
+              <div class="in">
+                  <div class="radio1">
+                      <input required id="gen1" type="radio" name="gender" value="male">
+                      <label for="gen1">Male</label>
+                  </div>
+                  <div class="radio2">
+                      <input id="gen2" type="radio" name="gender" value="female">
+                      <label for="gen2">Female</label>
+                  </div>
+                 
+              </div>
+         </div>
+         
+          <input type="submit" value="Sign Up">
+      </form>
+  </div>
+</section>
+<script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
 
 
 
